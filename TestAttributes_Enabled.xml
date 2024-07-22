@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="suite1">
+	<test name="name1">
+		<classes>
+			<class name="com.testng_scripts.TestAttributes_Enabled">
+				<methods>
+					<include name="myTest1"/>
+					<include name="myTest2"/> 
+					<exclude name="myTest3"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="seleniumDevSuite">
+	<test name="seleniumDevTest">
+		<classes>
+			<class name="com.testng_scripts.SeleniumDevTest">
+			</class>
+		</classes>
+	</test>
+</suite>

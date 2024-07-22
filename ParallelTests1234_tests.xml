@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="tests" thread-count="4">  <!-- tests,classes,methods -->
+
+  <test name="Test1">
+    <classes>
+      <class name="com.parallelTesting.ParallelTest1"/>
+      <class name="com.parallelTesting.ParallelTest2"/>
+    </classes>
+  </test> 
+  
+   <test name="Test2">
+    <classes>
+       <class name="com.parallelTesting.ParallelTest3"/>
+       <class name="com.parallelTesting.ParallelTest4"/>
+    </classes>
+  </test> 
+    
+</suite> 
+
+ <!-- 
+		 Methods: This will run the parallel tests on all @Test methods in TestNG.
+		 Tests: All the test cases present inside the <test> tag will run with this value.
+		 Classes: All the test cases present inside the classes that exist in the XML will run in parallel.
+ -->

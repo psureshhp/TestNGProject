@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="suite1">
+  	<test name="test1">
+  		<classes>
+  		   <class name="com.testng_scripts.Before_After_Class_Before_After_Group"></class>
+  		</classes>
+  	</test>
+  	  	<!-- normal methods will execute based on Alphabetical order -->
+  	  	<!-- After groups, normal methods will execute-->
+</suite>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">  
+<suite name="Suite">
+
+ 	<listeners>  
+		<listener class-name="com.commonMethods.Listeners"/>  
+	</listeners>   
+	
+	<test name="Listeners_program1">  
+		<classes>  
+			<class name="com.testng.listeners.TestCase1"></class>  
+		</classes>  
+	</test>  
+	
+	<test name="Listeners_program2">  
+		<classes>  
+			<class name="com.testng.listeners.TestCase2"></class>
+		</classes>  
+	</test> 
+	<test name="Listeners_program3">  
+		<classes>  
+			<class name="com.testng.listeners.TestCase3"></class>
+		</classes>  
+	</test>  
+</suite>   
+<!-- Suite -->  
+
+

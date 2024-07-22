@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="suite1">
+	<suite-files>
+	    <suite-file path="testng_Annotations1.xml"/>
+	    <suite-file path="testng_Annotations2.xml"/>
+	</suite-files>
+</suite>
